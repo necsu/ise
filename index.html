@@ -3,6 +3,9 @@
   <head>
     <title>NECS - ISE</title>
     <style>
+      body {
+        font-family: Arial,Helvetica,sans-serif;
+      }
       .header {
         width: auto;
         display: inline-block;
@@ -16,12 +19,29 @@
       .header_logo_nhs {
          width: 120px;
       }
+      h1 {
+        color: red
+      }
+      footer {
+        position: fixed;
+        bottom: 0px;
+        background-color: #004074;
+        color: #fff;
+        width: 100%;
+        left: 0px;
+      }
     </style>
   </head>
   <body>
     <header>
       <img src="necs-logo.png" alt="NECS"><span class="header_logo_text">A care system support organisation</span><img src="nhs-logo.png" alt="NHS" class="header_logo_nhs">
-      <p>Test</p>
     </header>
+    <h1>IMPORTANT NOTICE</h1>
+    <p>This device has failed an important security check and therefore will not be granted access to NECS resources as this time. Please contact the ICT Service Desk on <strong>0300 555 0340.</strong></p>
+    <p>Please have your device name / asset tag identifier to hand (to be found on the Desktop screen eg NECS12345) when logging a call, and quote <strong>"ISE Compliance Failure"</strong> as the subject of your call.</p>
+    <p>Version 1.0/August 2022</p>
+    <footer>
+      <h5>© NHS Commissioning Board. Developed by North of England Commissioning Support Unit (NECS).</h5>
+    </footer>
   </body>
 </html>
